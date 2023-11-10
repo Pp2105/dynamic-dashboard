@@ -1,0 +1,44 @@
+
+
+.editSettingsUI{
+    font-size: 30px;
+}
+.editSettingFrame{
+     
+    width:150px;
+    height:80px;
+    background: rgb(252,176,69);
+background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
+
+   border-radius: 10px;
+   position: absolute;
+   z-index: 2;
+   margin-left: -120px;
+   
+}
+
+.editSettingFrame>input{
+    width:120px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10.5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+     
+}
+
+.editSettingFrame>button{
+    width:120px;
+    height: 20px;
+    font-size: 15px;
+    
+    margin-left: 10.5px;
+    border-radius: 12px;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(205,5,87,1) 100%);
+border:none;
+    color:white;
+ background-color: transparent;
+}
+ 
