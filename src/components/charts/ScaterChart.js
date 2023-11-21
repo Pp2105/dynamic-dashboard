@@ -119,7 +119,7 @@ const ScaterChart = () => {
          }
      },
      tooltip: {
-         pointFormat: 'Height: {point.x} m <br/> Weight: {point.y} kg'
+         pointFormat: 'Height: {point.x} cm <br/> Weight: {point.y} kg'
      },
      
  

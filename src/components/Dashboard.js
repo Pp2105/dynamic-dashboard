@@ -24,7 +24,7 @@ const Dashboard = () => {
           <div
             key="1"
             className="item"
-            data-grid={{ i: "f", x: 0, y: 0, w: 12, h: 3 }}
+            data-grid={{ i: "a", x: 0, y: 0, w: 12, h: 3 }}
           >
             <BarChart />
           </div>
@@ -46,14 +46,14 @@ const Dashboard = () => {
           <div
             key="4"
             className="item"
-            data-grid={{ i: "d", x: 2, y: 0, w: 5, h: 3 }}
+            data-grid={{ i: "d", x: 2, y: 0, w: 5.5, h: 3 }}
           >
             <BoxWhiskerPlot />
           </div>
           <div
             key="6"
             className="item"
-            data-grid={{ i: "b", x: 3, y: 3, w: 5, h: 3 }}
+            data-grid={{ i: "e", x: 3, y: 3, w: 5.5, h: 3 }}
           >
             <Allcharts/>
           </div>
